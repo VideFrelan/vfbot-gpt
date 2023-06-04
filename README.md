@@ -1,4 +1,4 @@
-# VFbot-GPT
+# VFBOT-GPT
 
 VFbot-GPT is a chatbot that uses the GPT (Generative Pre-trained Transformer) model from OpenAI to provide responses to user messages in a chat conversation. This chatbot is developed using the @open-wa/wa-automate and openai libraries.
 
