@@ -1,0 +1,16 @@
+{
+  "name": "vfbot-gpt",
+  "version": "1.0.0",
+  "description": "Chatbot that uses the GPT (Generative Pre-trained Transformer) model from OpenAI to provide responses to user messages in a chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "VideFrelan(VideFikri)",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.58.0",
+    "fs": "^0.0.1-security",
+    "openai": "^3.1.0"
+  }
+}
