@@ -4,7 +4,7 @@
   "description": "Chatbot that uses the GPT (Generative Pre-trained Transformer) model from OpenAI to provide responses to user messages in a chat",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "vf": "node index.js"
   },
   "author": "VideFrelan(VideFikri)",
   "license": "MIT",
