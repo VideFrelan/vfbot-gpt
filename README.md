@@ -34,7 +34,7 @@ Change the apikey configuration in `config.json` according to the ApiKey OpenAi 
 2. Clone this repository to your computer.
 3. Open a terminal or command prompt and navigate to the cloned repository directory.
 4. Run the command `npm install` to install all required dependencies.
-5. Run the command `npm vf` to start the VFbot-GPT chatbot.
+5. Run the command `npm run vf` to start the VFbot-GPT chatbot.
 6. Open WhatsApp on your device and scan the QR code that appears to log in to WhatsApp Web using VFbot-GPT.
 7. Start sending messages with the "vfbot" prefix on WhatsApp to interact with VFbot-GPT.\
 (example: `vfbot Hello, can you help me with math?`)
