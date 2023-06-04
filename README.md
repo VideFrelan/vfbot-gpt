@@ -14,7 +14,6 @@ VFbot-GPT is a chatbot that uses the GPT (Generative Pre-trained Transformer) mo
 - Uses the GPT model trained by OpenAI, providing more natural and contextual responses.
 - Can be integrated with WhatsApp using the @open-wa/wa-automate library, enabling it to be used as a virtual assistant in chat conversations.
 - Can store and remember previous context in the conversation, providing a smoother conversational experience.
-- Can be customized by adding logic for selecting the engine based on specific keywords.
 
 ## Configuration
 
