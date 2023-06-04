@@ -93,9 +93,17 @@ async function start(vf, userData) {
         console.log(`\x1b[34mBot merespons dalam ${processTime(userData[user].timestamp, Date.now())} detik.\x1b[0m`);
       }
     } catch (error) {
-      console.error("Terjadi kesalahan:", error);
+      const { from } = message;
+      const user = from;
+      if (error.response && error.response.status === 400) {
+      // Error code 400, reset user context
+      userData[user].context = [];
+      saveUserData(userData);
+      await vf.sendText(message.from, "Terjadi kesalahan dalam memproses permintaan Anda. Sepertinya server mengalami error atau konteks Anda telah mencapai limit. Konteks Anda telah direset. Silakan ketik pesan baru.");
+    } else {
       await vf.sendText(message.from, "Terjadi kesalahan dalam memproses permintaan Anda. Mohon coba lagi nanti.");
     }
+  }
   });
 }
 
